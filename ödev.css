@@ -1,0 +1,133 @@
+#body
+{
+    background-attachment: scroll;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+   
+}
+.navbar-brand img
+{
+ width: 50px;
+ height: 50px;
+
+ 
+}
+.arkaplan img
+{
+  width: 100%;
+  height:100%;
+}
+#navbarDropdown1
+{
+    color:orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+}
+#navbarDropdown2
+{
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+}
+#navbarDropdown3
+{
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+}
+.carousel-inner
+{
+    height: 500px;
+}
+.carousel-item img
+{
+    height: 500px;
+}
+.dropdown-item
+{
+    color: rgb(211, 166, 83);
+}
+.dropdown-menu a:hover
+{
+    background-color: orange;
+    color: white;
+}
+.card-body a
+{
+   background-color: brown;
+}
+.card-body a:hover
+{
+    background-color:orangered;
+}
+.menü
+{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.menübölümü
+{
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.menübölümü img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#h3
+{
+  text-align: center;
+  
+}
+.logo
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(103, 29, 29);
+    position: absolute;
+    top: 100%;
+    opacity:0.8;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menübölümü:hover .logo
+{
+ top: 0;
+}
+#search
+{
+    background-color: rgb(214, 141, 5);
+}
+#son
+{
+    background-color: brown;
+}
+
+#text-muted:hover
+{
+  background-color: white;
+  
+}
+#h1
+{
+  text-align: center;
+  color: brown;
+
+}
+#çeşit
+{
+    text-align: center;
+    font-family: fantasy;
+    
+}
