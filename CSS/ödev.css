@@ -131,3 +131,15 @@
     font-family: fantasy;
     
 }
+#menüler
+{
+
+    border-width: 10px;
+    border-color: yellow;
+    border-style: solid;
+    
+}
+.e
+{
+    float: right;
+}
