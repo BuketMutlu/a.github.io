@@ -91,7 +91,9 @@ function saat()
 }
 function ydeğiş()
 {
-    document.getElementById("biz").innerHTML="çok teşekkürler";
+    document.getElementById("biz").innerHTML="AFİYET OLSUN :) ";
+    var a=document.getElementById("biz");
+    a.style.color="red";
 }
 function index()
 {
@@ -106,4 +108,18 @@ function etiket()
     a.setAttribute("href","https://www.google.com")
     console.log(a);
 
+
+}
+function değiş2()
+{
+    var h5=document.getElementsByTagName('h5')[1];
+    h5.textContent="birbirinden güzel her türlü pasta çeşitlerini";
+    h5.style.fontFamily="Arial"
+    console.log(h5);
+}
+function değişİM()
+{
+    var h5=document.getElementsByTagName('h5')[3];
+    h5.style.fontFamily="Arial"
+    console.log(h5);
 }
