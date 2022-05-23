@@ -142,4 +142,41 @@
 .e
 {
     float: right;
+    
+}
+#message-box
+{
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+.footer
+{
+    cursor: pointer;
+    height: 50px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+#content
+{
+    height: 50px;
+    padding: 10px;
+    display: none;
+}
+#close
+{
+    float: right;
+}
+#close:hover
+{
+    color: black;
+}
+#gizle:hover
+{
+    background-color: brown;
+}
+#goster:hover
+{
+    background-color: brown;
+    
 }
