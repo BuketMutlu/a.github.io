@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="CSS\ödev.css">
     <script src="JS\bootstrap.js" type="text/javascript"></script>
     <script src="JS\ödev.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -39,7 +40,7 @@
                   KAHVE
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#"><span>Türk kahvesi</span></a></li>
+                  <li><a class="dropdown-item" href="#">Türk kahvesi</a></li>
                   <li><a class="dropdown-item" href="#">Filtre kahve</a></li>
                   <li><a class="dropdown-item" href="#">Espresso</a></li>
                   <li><hr class="dropdown-divider"></li>
@@ -98,9 +99,9 @@
         <h1 id="h1">KAHVE-PASTA-ÇİKOLATA ÜÇLÜSÜNÜ <br> DENEMEYE NE DERSİNİZ</h1>
         <h3 id="h3">𝕊𝕚𝕫𝕚𝕟 𝕚𝕔𝕚𝕟 𝕙𝕒𝕫𝕚𝕣𝕝𝕒𝕕𝕚𝕘𝕚𝕞𝕚𝕫 𝕦𝕔𝕝𝕦 𝕝𝕖𝕫𝕫𝕖𝕥𝕚 <br>𝕖𝕧𝕚𝕟𝕚𝕫𝕕𝕖 𝕧𝕖 𝕠𝕗𝕚𝕤𝕚𝕟𝕚𝕫𝕕𝕖 𝕥𝕒𝕕𝕒𝕓𝕚𝕝𝕞𝕖𝕟𝕚𝕫 𝕚𝕔𝕚𝕟 𝕓𝕚𝕣 𝕒𝕣𝕒𝕪𝕒 𝕘𝕖𝕥𝕚𝕣𝕕𝕚𝕜.</h3>
         <h5 id="çeşit">dünya kahveleri</h5>
-        <h5  id="çeşit">birbirinden güzel her türlü pasta çeşitlerini</h5>
-        <h5  id="çeşit">ve olmazsa olmaz çikolata çeşitlerini</h5>
-        <h4 id="çeşit">sipariş edebilirsiniz</h5>
+        <h5 id="çeşit">pasta çeşitleri</h5>
+        <h5 id="çeşit">ve olmazsa olmaz çikolata çeşitlerini</h5>
+        <h5 id="çeşit">sipariş edebilirsiniz.</h5>
           <span>  ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐</span>
       </div>
         <section id="menüler">
@@ -158,7 +159,9 @@
 
           </div>
           <span>BİZİ TERCİH ETTİĞİNİZ İÇİN TEŞEKKÜRLER :)</span>
-          <p id="biz">:) :)</p>
+          <div id="jq" class="ui-widget-content">
+            <p id="biz">:) :)</p>
+          </div>
           <span style="float: right; color:rgb(135, 90, 6);">HESAPLARIMIZ ↓ ↓ ↓ ↓</span>
           
         </section>
@@ -178,7 +181,7 @@
             <footer class="d-flex  justify-content-between  py-4 my-3" id="son">
               
               
-              <span class="col-md-4 mb-0 text-muted"><b><u>Ⓑ BUKET MUTLU Ⓑ </u></b></span>
+              <span><b><u>Ⓑ BUKET MUTLU Ⓑ </u></b></span>
           
               <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3"><a id="text-muted" href="#"><svg class="bi" width="30" height="30"><use xlink:href="#twitter"/></svg></a></li>
@@ -187,8 +190,44 @@
               </ul>
             </footer>
           </div>
+          
         </footer>
+        <div class="enalt">
+        <div class="e" onclick="merhaba(this)">
+         TIKLAYINIZ ↑ ↑ ↑ ↑
+        </div>
+        
+          <button id="gizle">Gizle</button>
+          <br>
+          <button id="goster">Göster</button>
+        
+          <div id="message-box">
+            <div class="footer">
+              <span id="close">X</span>
+              MESAJINIZ VAR ↓ ↓ ↓ ↓
+            </div>
+            <div id="content">
+              KEYİFLİ GÜNLER DİLERİM.
+            </div>
+
+          </div>
+        </div>
+        <iframe src="https://getbootstrap.com/docs/5.0/getting-started/introduction/" frameborder="2">
+          iframe
+        </iframe>
+        <iframe src="https://jquery.com/" frameborder="2">
+          iframe
+        </iframe>
+        
        
+
+        
+<p id="deneme"></p>
+
+<button type="button" onclick="document.getElementById('deneme').innerHTML='iyi günler'">Buraya Tıkla!</button>
+
+          
+
         <script>
           var istenilen="Javascripte hoş geldiniz."
           var baş=istenilen.toUpperCase();
@@ -203,16 +242,34 @@
          nesne();
          etiket();
          saat();
-        
-          
+         değiş2();
+         değişİM();
+         
+         $(document).ready(function(){ 
+        $("#gizle").click(function(){   
+          	$("p").hide(2000); 
+        });
+        $("#goster").click(function(){ 
+       	$("p").show(1000);
+        }); 
+        }); 
+
+
+        $(function(){
+          $(".footer").click(function(){
+            $("#content").toggle("slow");
+          });
+          $("#close").click(function(){
+            $("#message-box").hide("show");
+          });
+        });
+
+
+          $("button#search").html("ARA");
+
          
         </script>
-        <div class="e" onclick="merhaba(this)">
-         TIKLAYINIZ ↑ ↑ ↑ ↑
-        </div>
         
-        
-       
         
 </body>
 </html>
